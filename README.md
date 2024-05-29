@@ -18,25 +18,27 @@ This project is a microservice-based API designed to determine the scholarship e
 - **H2 Database**: In-memory database for quick access and storage
 
 ## Project Structure
+
 student-service
 ├── src
-│ ├── main
-│ │ ├── java
-│ │ │ └── com.example.studentservice
-│ │ │ ├── controller
-│ │ │ ├── entity
-│ │ │ ├── repository
-│ │ │ ├── service
-│ │ │ └── StudentServiceApplication.java
-│ │ ├── resources
-│ │ │ ├── application.properties
-│ │ │ └── logback-spring.xml
-│ ├── test
-│ │ └── java
-│ │ └── com.example.studentservice
-│ │ └── controller
-│ │ └── StudentControllerTests.java
+│   ├── main
+│   │   ├── java
+│   │   │   └── com.example.studentservice
+│   │   │       ├── controller
+│   │   │       ├── entity
+│   │   │       ├── repository
+│   │   │       ├── service
+│   │   │       └── StudentServiceApplication.java
+│   │   └── resources
+│   │       ├── application.properties
+│   │       └── logback-spring.xml
+│   └── test
+│       └── java
+│           └── com.example.studentservice
+│               └── controller
+│                   └── StudentControllerTests.java
 └── pom.xml
+
 
 
 ## Setup and Running the Project

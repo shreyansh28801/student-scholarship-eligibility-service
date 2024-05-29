@@ -18,7 +18,7 @@ This project is a microservice-based API designed to determine the scholarship e
 - **H2 Database**: In-memory database for quick access and storage
 
 ## Project Structure
-
+```bash
 student-service
 ├── src
 │   ├── main
@@ -42,7 +42,7 @@ student-service
 │   │               └── controller
 │   │                   └── StudentControllerTests.java
 └── pom.xml
-
+```
 
 
 ## Setup and Running the Project

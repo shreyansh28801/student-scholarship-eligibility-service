@@ -23,20 +23,24 @@ student-service
 ├── src
 │   ├── main
 │   │   ├── java
-│   │   │   └── com.example.studentservice
-│   │   │       ├── controller
-│   │   │       ├── entity
-│   │   │       ├── repository
-│   │   │       ├── service
-│   │   │       └── StudentServiceApplication.java
-│   │   └── resources
-│   │       ├── application.properties
-│   │       └── logback-spring.xml
-│   └── test
-│       └── java
-│           └── com.example.studentservice
-│               └── controller
-│                   └── StudentControllerTests.java
+│   │   │   └── com
+│   │   │       └── example
+│   │   │           └── studentservice
+│   │   │               ├── controller
+│   │   │               ├── entity
+│   │   │               ├── repository
+│   │   │               └── service
+│   │   └── StudentServiceApplication.java
+│   ├── resources
+│       └── application.properties
+│   └── logback-spring.xml
+├── test
+│   ├── java
+│   │   └── com
+│   │       └── example
+│   │           └── studentservice
+│   │               └── controller
+│   │                   └── StudentControllerTests.java
 └── pom.xml
 
 

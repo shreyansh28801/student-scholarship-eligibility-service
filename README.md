@@ -87,4 +87,5 @@ spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 ```
 
 ###Swagger Snap 
-![Uploading Screenshot 2024-05-29 at 8.42.11 PM.png…]()
+![image](https://github.com/shreyansh28801/student-scholarship-eligibility-service/assets/81692600/020c5306-2c67-4b4c-8375-5dbe9387a609)
+
